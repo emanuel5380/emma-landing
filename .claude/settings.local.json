@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Command node, npm -ErrorAction SilentlyContinue | Select-Object Name, Source; $env:PATH -split ';' | Where-Object { $_ -match 'node' })",
+      "PowerShell(Get-ChildItem \"C:\\\\Program Files\\\\nodejs\" -ErrorAction SilentlyContinue | Select-Object Name; Get-ChildItem \"$env:APPDATA\\\\npm\" -ErrorAction SilentlyContinue | Select-Object Name -First 5; Get-ChildItem \"$env:LOCALAPPDATA\\\\Programs\" -ErrorAction SilentlyContinue | Where-Object Name -match node | Select-Object Name)",
+      "PowerShell(& \"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\" --version)",
+      "PowerShell(& \"C:\\\\Program Files\\\\nodejs\\\\node.exe\" --version)",
+      "PowerShell($env:PATH = \"C:\\\\Program Files\\\\nodejs;\" + $env:PATH; cd \"c:\\\\Users\\\\emajo\\\\OneDrive\\\\Documentos\\\\Claude\\\\Landing-veterinario\"; Remove-Item -Recurse -Force node_modules -ErrorAction SilentlyContinue; & \"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\" install)",
+      "PowerShell($env:PATH = \"C:\\\\Program Files\\\\nodejs;\" + $env:PATH; cd \"c:\\\\Users\\\\emajo\\\\OneDrive\\\\Documentos\\\\Claude\\\\Landing-veterinario\"; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"`$env:PATH = 'C:\\\\Program Files\\\\nodejs;' + `$env:PATH; cd 'c:\\\\Users\\\\emajo\\\\OneDrive\\\\Documentos\\\\Claude\\\\Landing-veterinario'; & 'C:\\\\Program Files\\\\nodejs\\\\npm.cmd' run dev\")",
+      "PowerShell(Invoke-WebRequest -Uri \"http://localhost:5173\" -TimeoutSec 5 -UseBasicParsing)",
+      "PowerShell($env:PATH = \"C:\\\\Program Files\\\\nodejs;\" + $env:PATH; cd \"c:\\\\Users\\\\emajo\\\\OneDrive\\\\Documentos\\\\Claude\\\\Landing-veterinario\"; & \"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\" run dev)"
+    ]
+  }
+}
