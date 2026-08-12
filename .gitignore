@@ -32,6 +32,3 @@ Thumbs.db
 
 # Vite cache
 .vite/
-
-# Images (manage separately, not in git)
-public/assets/
