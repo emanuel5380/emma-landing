@@ -16,8 +16,8 @@ const services = [
   {
     emoji: '🔗',
     title: 'Reparación de Ligamentos',
-    description: 'Reconstrucción del ligamento cruzado craneal con técnicas TPLO y TTA, las más avanzadas del mercado veterinario.',
-    tags: ['TPLO', 'TTA', 'Sutura lateral'],
+    description: 'Reconstrucción del ligamento cruzado craneal con cirugía TPLO, técnica de referencia actual en la ortopedia veterinaria de pequeñas especies.',
+    tags: ['TPLO', 'Sutura lateral', 'Manejo post-op'],
   },
   {
     emoji: '🦵',

@@ -64,7 +64,7 @@ export default function Testimonials() {
           <span className="section-tag">⭐ Testimonios</span>
           <h2 className="section-heading mb-4">Lo que dicen las familias</h2>
           <p className="text-slate-500 leading-relaxed">
-            Más de 180 mascotas han recuperado su calidad de vida con atención ortopédica especializada.
+            Pacientes que han recuperado su calidad de vida con atención ortopédica especializada.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export default function Testimonials() {
         <div className="mt-14 grid grid-cols-3 gap-px bg-slate-200 rounded-2xl overflow-hidden shadow-sm max-w-lg mx-auto">
           {[
             { val: '4.9', label: 'Calificación', sub: '5 estrellas' },
-            { val: '+180', label: 'Pacientes', sub: 'en Medellín' },
+            { val: '+50', label: 'Pacientes', sub: 'en Medellín' },
             { val: '98%', label: 'Recuperación', sub: 'completa' },
           ].map(({ val, label, sub }) => (
             <div key={label} className="bg-white flex flex-col items-center justify-center py-6 px-4 text-center">

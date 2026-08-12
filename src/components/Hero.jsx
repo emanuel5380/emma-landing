@@ -43,7 +43,7 @@ export default function Hero() {
             {/* Trust pills */}
             <div className="flex flex-wrap gap-3 mb-10">
               {[
-                { icon: <ShieldCheck size={14} />, text: 'Cirugía TPLO & TTA certificada' },
+                { icon: <ShieldCheck size={14} />, text: 'Cirugía TPLO' },
                 { icon: '🐾', text: 'Solo perros y gatos' },
                 { icon: '📍', text: 'Medellín · Antioquia' },
               ].map((item, i) => (
@@ -82,7 +82,7 @@ export default function Hero() {
                   ))}
                   <span className="text-white font-bold text-sm ml-1.5">4.9</span>
                 </div>
-                <p className="text-white/50 text-xs mt-0.5">+180 mascotas recuperadas en Medellín</p>
+                <p className="text-white/50 text-xs mt-0.5">Pacientes recuperados en Medellín</p>
               </div>
             </div>
           </div>
@@ -96,11 +96,13 @@ export default function Hero() {
                 style={{ background: 'linear-gradient(160deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 100%)', backdropFilter: 'blur(20px)' }}>
 
                 {/* Photo area */}
-                <div className="relative h-72 flex flex-col items-center justify-center"
-                  style={{ background: 'linear-gradient(135deg, #0d9488 0%, #2563eb 100%)' }}>
-                  <div className="text-7xl mb-3">🩺</div>
-                  <p className="text-white/40 text-xs">📸 Foto de la Dra. Emma</p>
-
+                <div className="relative h-72 overflow-hidden">
+                  <img
+                    src="/assets/IMG-20262345ESASDF.jpg"
+                    alt="Dra. Emma - Veterinaria especialista en ortopedia en Medellín"
+                    className="w-full h-full object-cover object-top"
+                  />
+                  <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, transparent 50%, rgba(11,23,64,0.5) 100%)' }} />
                   {/* Available chip */}
                   <div className="absolute top-4 right-4 flex items-center gap-1.5 bg-emerald-400 text-white text-xs font-bold px-3 py-1 rounded-full">
                     <span className="w-1.5 h-1.5 bg-white rounded-full animate-pulse" />
@@ -115,7 +117,7 @@ export default function Hero() {
                     Ortopedia · Traumatología Veterinaria
                   </p>
 
-                  <div className="space-y-2">
+                  <div className="space-y-2 mb-4">
                     {[
                       '🎓 Médica Veterinaria y Zootecnista',
                       '🦴 Especialista en Ortopedia',
@@ -126,18 +128,17 @@ export default function Hero() {
                       </div>
                     ))}
                   </div>
-                </div>
-              </div>
 
-              {/* Floating badge — experience */}
-              <div className="absolute -bottom-5 -left-8 bg-white rounded-2xl shadow-xl px-4 py-3 flex items-center gap-3 border border-slate-100">
-                <div className="w-10 h-10 rounded-xl flex items-center justify-center text-xl"
-                  style={{ background: 'linear-gradient(135deg, #eff6ff, #dbeafe)' }}>
-                  🏆
-                </div>
-                <div>
-                  <p className="text-brand-900 font-bold text-sm leading-none">+6 años</p>
-                  <p className="text-slate-400 text-xs mt-0.5">de experiencia</p>
+                  <div className="flex items-center gap-2.5 pt-3 border-t border-white/10">
+                    <div className="w-8 h-8 rounded-lg flex items-center justify-center text-base flex-shrink-0"
+                      style={{ background: 'linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0.08))' }}>
+                      🏆
+                    </div>
+                    <div>
+                      <p className="font-bold text-sm text-white leading-none">3 años en ortopedia</p>
+                      <p className="text-white/45 text-xs mt-0.5">dedicados a perros y gatos</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

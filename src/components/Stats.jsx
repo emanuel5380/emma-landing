@@ -1,8 +1,8 @@
 const stats = [
-  { value: '+200', label: 'Cirugías exitosas', icon: '✂️', color: '#2563eb' },
-  { value: '+6',   label: 'Años de experiencia', icon: '🏆', color: '#0d9488' },
+  { value: '+50',  label: 'Cirugías ortopédicas', icon: '✂️', color: '#2563eb' },
+  { value: '3',    label: 'Años dedicados a ortopedia', icon: '🏆', color: '#0d9488' },
   { value: '4.9★', label: 'Calificación promedio', icon: '⭐', color: '#f59e0b' },
-  { value: '98%',  label: 'Casos con recuperación completa', icon: '💚', color: '#22c55e' },
+  { value: '100%', label: 'Compromiso con cada paciente', icon: '💚', color: '#22c55e' },
 ]
 
 export default function Stats() {

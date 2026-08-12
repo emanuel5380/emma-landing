@@ -3,8 +3,8 @@ import { CheckCircle2, ArrowRight } from 'lucide-react'
 const credentials = [
   { icon: '🎓', title: 'Médica Veterinaria y Zootecnista' },
   { icon: '🦴', title: 'Especialista en Ortopedia y Traumatología Veterinaria' },
-  { icon: '🔬', title: 'Certificada en técnicas TPLO y TTA' },
-  { icon: '🌎', title: 'Actualización en congresos internacionales' },
+  { icon: '🔬', title: 'Formación en cirugía TPLO y técnicas modernas' },
+  { icon: '🌎', title: 'Actualización continua en ortopedia veterinaria' },
 ]
 
 const strengths = [
@@ -23,14 +23,14 @@ export default function About() {
 
           {/* Visual */}
           <div className="relative order-2 lg:order-1">
-            <div className="relative rounded-3xl overflow-hidden aspect-[4/5] max-w-md mx-auto lg:mx-0 shadow-2xl"
-              style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #0d9488 100%)' }}>
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
-                <div className="text-8xl mb-4">👩‍⚕️</div>
-                <p className="text-white/40 text-sm">📸 Foto profesional de la Dra. Emma</p>
-              </div>
+            <div className="relative rounded-3xl overflow-hidden aspect-[4/5] max-w-md mx-auto lg:mx-0 shadow-2xl">
+              <img
+                src="/assets/IMG-202600QWE34.jpg"
+                alt="Dra. Emma, veterinaria especialista en ortopedia de pequeñas especies en Medellín"
+                className="w-full h-full object-cover object-center"
+              />
               <div className="absolute bottom-0 left-0 right-0 h-1/3"
-                style={{ background: 'linear-gradient(to top, rgba(30,58,138,0.8), transparent)' }} />
+                style={{ background: 'linear-gradient(to top, rgba(30,58,138,0.6), transparent)' }} />
             </div>
 
             {/* Floating credential */}
