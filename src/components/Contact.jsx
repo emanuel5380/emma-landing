@@ -45,7 +45,7 @@ export default function Contact() {
             </div>
 
             <a
-              href="https://wa.me/573000000000?text=Hola%20Dra.%20Emma%2C%20quiero%20agendar%20una%20consulta%20de%20ortopedia%20veterinaria."
+              href="https://wa.me/573146436327?text=Hola%20Dra.%20Emma%2C%20quiero%20agendar%20una%20consulta%20de%20ortopedia%20veterinaria."
               target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#1ebe5e] text-white px-8 py-4 rounded-full font-bold text-sm transition-all duration-300 shadow-xl hover:-translate-y-0.5">
               <svg viewBox="0 0 24 24" className="w-5 h-5 fill-white">
@@ -81,7 +81,7 @@ export default function Contact() {
               ))}
             </div>
             <a
-              href="https://wa.me/573000000000?text=Hola%20Dra.%20Emma%2C%20quiero%20agendar%20una%20consulta%20de%20ortopedia%20veterinaria."
+              href="https://wa.me/573146436327?text=Hola%20Dra.%20Emma%2C%20quiero%20agendar%20una%20consulta%20de%20ortopedia%20veterinaria."
               target="_blank" rel="noopener noreferrer"
               className="btn-white w-full justify-center">
               Agendar Ahora

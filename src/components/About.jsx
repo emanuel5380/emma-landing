@@ -71,7 +71,7 @@ export default function About() {
               ))}
             </ul>
 
-            <a href="https://wa.me/573000000000" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/573146436327" target="_blank" rel="noopener noreferrer"
               className="btn-primary">
               Hablar con la Dra. Emma
               <ArrowRight size={16} />

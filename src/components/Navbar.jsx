@@ -54,7 +54,7 @@ export default function Navbar() {
 
           {/* CTA */}
           <div className="hidden lg:block">
-            <a href="https://wa.me/573000000000" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/573146436327" target="_blank" rel="noopener noreferrer"
               className="btn-primary text-[13px] px-5 py-2.5">
               Agendar Cita
             </a>
@@ -78,7 +78,7 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
-          <a href="https://wa.me/573000000000" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/573146436327" target="_blank" rel="noopener noreferrer"
             className="block mt-3 bg-brand-600 text-white text-center py-3 rounded-full font-semibold text-sm"
             onClick={() => setOpen(false)}>
             Agendar Cita

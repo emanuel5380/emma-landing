@@ -75,7 +75,7 @@ export default function Services() {
         </div>
 
         <div className="mt-12 text-center">
-          <a href="https://wa.me/573000000000" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/573146436327" target="_blank" rel="noopener noreferrer"
             className="btn-primary">
             Consultar mi caso
             <ArrowRight size={16} />

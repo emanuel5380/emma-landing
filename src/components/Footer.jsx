@@ -75,7 +75,7 @@ export default function Footer() {
             <p className="text-white font-semibold text-xs uppercase tracking-wider mb-5">Contacto</p>
             <div className="space-y-4">
               {[
-                { label: 'WhatsApp', val: '+57 300 000 0000', href: 'https://wa.me/573000000000' },
+                { label: 'WhatsApp', val: '+57 314 643 6327', href: 'https://wa.me/573146436327' },
                 { label: 'Ubicación', val: 'Medellín, Antioquia', href: null },
                 { label: 'Horario', val: 'Lun – Sáb: 8am – 6pm', href: null },
               ].map(({ label, val, href }) => (

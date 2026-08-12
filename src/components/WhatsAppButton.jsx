@@ -1,7 +1,7 @@
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/573000000000?text=Hola%20Dra.%20Emma%2C%20quiero%20agendar%20una%20consulta%20de%20ortopedia%20veterinaria."
+      href="https://wa.me/573146436327?text=Hola%20Dra.%20Emma%2C%20quiero%20agendar%20una%20consulta%20de%20ortopedia%20veterinaria."
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chatear por WhatsApp"

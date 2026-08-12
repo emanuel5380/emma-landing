@@ -56,7 +56,7 @@ export default function Hero() {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <a href="https://wa.me/573000000000" target="_blank" rel="noopener noreferrer"
+              <a href="https://wa.me/573146436327" target="_blank" rel="noopener noreferrer"
                 className="btn-white">
                 <span>Agendar consulta</span>
                 <ArrowRight size={16} />

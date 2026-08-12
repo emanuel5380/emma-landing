@@ -67,7 +67,7 @@ export default function FAQ() {
 
         <p className="text-center text-slate-400 text-sm mt-10">
           ¿Otra pregunta?{' '}
-          <a href="https://wa.me/573000000000" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/573146436327" target="_blank" rel="noopener noreferrer"
             className="text-brand-600 font-medium hover:underline">
             Escríbeme por WhatsApp
           </a>
