@@ -2,40 +2,40 @@ import { ArrowRight } from 'lucide-react'
 
 const services = [
   {
-    emoji: '🔍',
-    title: 'Diagnóstico Ortopédico',
-    description: 'Evaluación biomecánica completa con estudios radiográficos e imagen avanzada para un diagnóstico preciso y oportuno.',
-    tags: ['Radiografías', 'Ecografía', 'Evaluación funcional'],
-  },
-  {
     emoji: '🦴',
-    title: 'Cirugía de Fracturas',
-    description: 'Reparación de fracturas en huesos largos, pelvis, columna y articulaciones utilizando implantes de última generación.',
-    tags: ['Fijación interna', 'Placas y tornillos', 'Clavos intramedulares'],
+    title: 'Cirugía de Fracturas y Luxaciones',
+    description: 'Reducción y estabilización de fracturas y luxaciones con placas, tornillos y fijadores externos.',
+    tags: ['Placas y tornillos', 'Fijadores externos', 'Reducción abierta'],
   },
   {
     emoji: '🔗',
-    title: 'Reparación de Ligamentos',
-    description: 'Reconstrucción del ligamento cruzado craneal con cirugía TPLO, técnica de referencia actual en la ortopedia veterinaria de pequeñas especies.',
-    tags: ['TPLO', 'Sutura lateral', 'Manejo post-op'],
-  },
-  {
-    emoji: '🦵',
-    title: 'Luxación de Rótula',
-    description: 'Corrección quirúrgica de luxación patelar medial y lateral, la condición ortopédica más común en razas pequeñas.',
-    tags: ['Grados I – IV', 'Transposición', 'Corrección troclear'],
+    title: 'Ruptura de Ligamento Cruzado',
+    description: 'Estabilización articular mediante TPLO o técnica extracapsular, según cada caso. La cirugía modifica la biomecánica de la articulación para que ya no dependa del ligamento.',
+    tags: ['TPLO', 'Extracapsular', 'Manejo post-op'],
   },
   {
     emoji: '🐾',
     title: 'Displasia de Cadera y Codo',
-    description: 'Diagnóstico y manejo quirúrgico de displasia articular. Desde opciones conservadoras hasta FHO y prótesis total.',
-    tags: ['FHO', 'DPO / TPO', 'Prótesis total'],
+    description: 'Evaluación radiográfica y manejo quirúrgico o conservador según el grado de la displasia.',
+    tags: ['Evaluación radiográfica', 'Manejo conservador', 'Manejo quirúrgico'],
+  },
+  {
+    emoji: '🔍',
+    title: 'Enfermedades Articulares y Artrosis',
+    description: 'Diagnóstico y tratamiento del dolor asociado a artrosis y otras enfermedades articulares crónicas.',
+    tags: ['Manejo del dolor', 'Seguimiento', 'Calidad de vida'],
   },
   {
     emoji: '💪',
     title: 'Rehabilitación Post-Quirúrgica',
-    description: 'Programa personalizado de fisioterapia para una recuperación óptima, con seguimiento periódico incluido.',
-    tags: ['Hidroterapia', 'Ultrasonido', 'Ejercicios guiados'],
+    description: 'Diseño de planes de recuperación funcional, en coordinación con fisioterapia especializada.',
+    tags: ['Plan funcional', 'Seguimiento', 'Fisioterapia coordinada'],
+  },
+  {
+    emoji: '🦵',
+    title: 'Luxación de Rótula',
+    description: 'Corrección quirúrgica mediante trocleoplastia, transposición de la tuberosidad tibial u otras técnicas según el grado.',
+    tags: ['Trocleoplastia', 'Transposición tibial', 'Grados I – IV'],
   },
 ]
 
@@ -50,8 +50,9 @@ export default function Services() {
             Ortopedia veterinaria de alto nivel para tu mascota
           </h2>
           <p className="text-slate-500 text-lg leading-relaxed">
-            Atención ortopédica integral para perros y gatos, desde el diagnóstico
-            hasta la rehabilitación completa.
+            Atención ortopédica integral para perros y gatos. Utilizamos estudios de imagen
+            (radiografía y, según disponibilidad, tomografía y RM) para un diagnóstico preciso,
+            y acompañamos a cada paciente durante todo su proceso de recuperación.
           </p>
         </div>
 

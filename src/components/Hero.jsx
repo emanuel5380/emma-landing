@@ -119,8 +119,8 @@ export default function Hero() {
 
                   <div className="space-y-2 mb-4">
                     {[
-                      '🎓 Médica Veterinaria y Zootecnista',
-                      '🦴 Especialista en Ortopedia',
+                      '🎓 Médica Veterinaria, MSc',
+                      '🦴 Traumatología y Ortopedia',
                       '🐾 Perros y Gatos exclusivamente',
                     ].map(item => (
                       <div key={item} className="flex items-center gap-2 text-white/70 text-xs">

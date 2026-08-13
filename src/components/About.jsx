@@ -1,15 +1,16 @@
 import { CheckCircle2, ArrowRight } from 'lucide-react'
 
 const credentials = [
-  { icon: '🎓', title: 'Médica Veterinaria y Zootecnista' },
-  { icon: '🦴', title: 'Especialista en Ortopedia y Traumatología Veterinaria' },
-  { icon: '🔬', title: 'Formación en cirugía TPLO y técnicas modernas' },
-  { icon: '🌎', title: 'Actualización continua en ortopedia veterinaria' },
+  { icon: '🎓', title: 'Médica Veterinaria (MV), MSc — Universidad Técnica de Cotopaxi' },
+  { icon: '🔬', title: 'Posgrado en Cirugía de Tejidos Blandos — Universidad Central del Ecuador' },
+  { icon: '👁️', title: 'Especialidad en Clínica Médica, área Oftalmología — Universidad de Buenos Aires' },
+  { icon: '🦴', title: 'Maestría en Medicina Veterinaria de Pequeñas Especies, profundización en Traumatología y Ortopedia' },
+  { icon: '📜', title: 'Certificación AOVET en Tratamiento de Fracturas en Pequeñas Especies' },
+  { icon: '🌎', title: 'Internado en OrtopediaVet — Brasil' },
 ]
 
 const strengths = [
   'Diagnóstico claro y explicado sin tecnicismos',
-  'Técnicas quirúrgicas mínimamente invasivas',
   'Atención exclusiva para perros y gatos',
   'Seguimiento post-operatorio incluido en cada caso',
   'Comunicación directa y honesta con la familia',
@@ -80,7 +81,7 @@ export default function About() {
         </div>
 
         {/* Credentials */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-20">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-20">
           {credentials.map(({ icon, title }) => (
             <div key={title} className="flex items-start gap-3 bg-sky-light rounded-2xl p-4">
               <span className="text-2xl">{icon}</span>
