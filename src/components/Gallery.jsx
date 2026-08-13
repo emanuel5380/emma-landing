@@ -6,7 +6,7 @@ const items = [
     tag: 'Quirófano',
   },
   {
-    src: '/assets/20250427_131511~2.jpg',
+    src: '/assets/20250427_131511_2.jpg',
     alt: 'Consulta ortopédica veterinaria — beagle con la Dra. Emma en Medellín',
     label: 'Consulta ortopédica',
     tag: 'Diagnóstico',
