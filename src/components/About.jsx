@@ -1,7 +1,7 @@
 import { CheckCircle2, ArrowRight } from 'lucide-react'
 
 const credentials = [
-  { icon: '🎓', title: 'Médica Veterinaria (MV), MSc — Universidad Técnica de Cotopaxi' },
+  { icon: '🎓', title: 'Médica Veterinaria (MV) — Universidad Técnica de Cotopaxi' },
   { icon: '🔬', title: 'Posgrado en Cirugía de Tejidos Blandos — Universidad Central del Ecuador' },
   { icon: '🦴', title: 'Maestría en Medicina Veterinaria de Pequeñas Especies, profundización en Traumatología y Ortopedia — Universidad CES' },
   { icon: '📜', title: 'Certificación AOVET en Tratamiento de Fracturas en Pequeñas Especies' },
