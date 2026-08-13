@@ -80,9 +80,10 @@ export default function About() {
         </div>
 
         {/* Credentials */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-20">
+        <div className="flex flex-wrap justify-center gap-4 mt-16">
           {credentials.map(({ icon, title }) => (
-            <div key={title} className="flex items-start gap-3 bg-sky-light rounded-2xl p-4">
+            <div key={title}
+              className="flex items-start gap-3 bg-sky-light rounded-2xl p-4 w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-0.667rem)]">
               <span className="text-2xl">{icon}</span>
               <p className="text-slate-700 font-medium text-sm leading-snug">{title}</p>
             </div>

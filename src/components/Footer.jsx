@@ -34,12 +34,12 @@ export default function Footer() {
             <p className="text-white font-semibold text-xs uppercase tracking-wider mb-5">Servicios</p>
             <ul className="space-y-3">
               {[
-                'Diagnóstico Ortopédico',
-                'Cirugía de Fracturas',
-                'Reparación de Ligamentos',
-                'Luxación de Rótula',
-                'Displasia de Cadera',
-                'Rehabilitación',
+                'Cirugía de Fracturas y Luxaciones',
+                'Ruptura de Ligamento Cruzado',
+                'Displasia de Cadera y Codo',
+                'Enfermedades Articulares y Artrosis',
+                'Rehabilitación Postquirúrgica',
+                'Luxación Patelar',
               ].map(s => (
                 <li key={s}>
                   <a href="#servicios" className="text-white/40 text-sm hover:text-blue-300 transition-colors">

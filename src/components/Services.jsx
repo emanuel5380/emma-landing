@@ -50,7 +50,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 items-start">
           {services.map(({ emoji, title, description }) => (
             <div key={title} className="card p-6 group">
               <div className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl mb-5 bg-brand-50 group-hover:bg-brand-100 transition-colors">
