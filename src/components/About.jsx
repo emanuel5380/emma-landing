@@ -3,8 +3,7 @@ import { CheckCircle2, ArrowRight } from 'lucide-react'
 const credentials = [
   { icon: '🎓', title: 'Médica Veterinaria (MV), MSc — Universidad Técnica de Cotopaxi' },
   { icon: '🔬', title: 'Posgrado en Cirugía de Tejidos Blandos — Universidad Central del Ecuador' },
-  { icon: '👁️', title: 'Especialidad en Clínica Médica, área Oftalmología — Universidad de Buenos Aires' },
-  { icon: '🦴', title: 'Maestría en Medicina Veterinaria de Pequeñas Especies, profundización en Traumatología y Ortopedia' },
+  { icon: '🦴', title: 'Maestría en Medicina Veterinaria de Pequeñas Especies, profundización en Traumatología y Ortopedia — Universidad CES' },
   { icon: '📜', title: 'Certificación AOVET en Tratamiento de Fracturas en Pequeñas Especies' },
   { icon: '🌎', title: 'Internado en OrtopediaVet — Brasil' },
 ]
